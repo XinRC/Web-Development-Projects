@@ -9,4 +9,4 @@
 
 </br> 
 
-Web Development is a area of computer science that focuses on vuilding and maintaining websites and web applications for both the front-end and the back-end. Although there are the two ends for web development, this repo will most likely focus on full-stack development. This is also just a side project I wanted to explore, so do not take any of the code/project here seriously. 
+Web Development is a area of computer science that focuses on building and maintaining websites and web applications for both the front-end and the back-end. Although there are the two ends for web development, this repo will most likely focus on full-stack development. This is also just a side project I wanted to explore, so do not take any of the code/project here seriously. 
