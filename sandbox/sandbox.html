@@ -1,18 +1,76 @@
 <!DOCTYPE html>
 <html>
 
+<!-- Resource Used: https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1069s -->
+
+
 <style>
-    button {
-        background-color: blue;
-        color: white
+    .subscribe-button {
+        background-color: rgb(189, 0, 0);
+        color: white;
+        border: none;
+        height: 30px;
+        width: 100px;
+        border-radius: 2px;
+        cursor: pointer; 
+        margin-right: 8px;
+        transition: opacity .15s; 
+    }
+
+    .subscribe-button:hover { 
+        opacity: .8;
+    }
+
+    .subscribe-button:active {
+        opacity: .6;
+    }
+
+    .join-button {
+        background-color: white;
+        color: rgb(27, 116, 175);
+        border-color: rgb(27, 116, 175);
+        border-style: solid;
+        border-width: 1px;
+        height: 30px;
+        width: 60px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color .15s , color .15s;
+    }
+
+    .join-button:hover {
+        background-color: rgb(27, 116, 175);
+        color: white;
+    }
+    
+    .join-button:active {
+        opacity: .6;
+    }
+
+    .tweet-button {
+        background-color: rgb(58, 168, 241);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        height: 30px;
+        width: 70px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        transition: box-shadow .15s;
+    }
+
+    .tweet-button:hover {
+        box-shadow: 0px 5px 90px rgba(0,0,0, .15);
     }
 
 </style>
 
-<button>
-    Click me!!!
-</button>
 
+<button class="subscribe-button"> SUBSCRIBE </button>
+<button class="join-button"> JOIN </button>
+<button class="tweet-button"> Tweet </button>
 
 
 </html>
