@@ -15,20 +15,57 @@
         }
         .video-preview {
             width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0px 3px 0px 3px;
+        }
+        .channel-picture {
+            display: inline-block;
+            width: 50px;
+        }
+        .video-info {
+            display: inline-block;
+            width: 200px;
+        }
+        .profile-picture {
+            width: 50px;
+            border-radius: 100px;
         }
 
     </style>
 </head>
 
-<!-- https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1069s (2:40:06)-->
+
 <body>
+    <input class="search-bar" type="text" placeholder="Search">
 
     <div class="video-preview">
-        <input class="search-bar" type="text" placeholder="Search"> 
-        <img class="thumbnail" src="assets/thumbnails/Bleachers.avif">
-        <p class="video-title"> Bleachers - Live at Bowery Ballroom (Amazon Music Songline) | Full Concert Film</p>
-        <p class="video-author"> bleachers </p>
-        <p class="video-stats"> 104K views &middot; 11 months ago </p>
+        <div>
+            <img class="thumbnail" src="assets/thumbnails/Bleachers.avif">
+        </div>
+
+        <div>
+            <div class="channel-picture">
+                <img class="profile-picture" src="assets/channelPictures/bleachers_channel.jpg">
+            </div>
+
+            <div class="video-info">
+                <p class="video-title"> Bleachers - Live at Bowery Ballroom (Amazon Music Songline) 
+                    | Full Concert Film</p>
+                <p class="video-author"> bleachers </p>
+                <p class="video-stats"> 104K views &middot; 11 months ago </p>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div class="video-preview">
+        <img class="thumbnail" src="assets/thumbnails/RE.avif">
+        <p class="video-title"> How Resident Evil 7 Saved Resident Evil</p>
+        <p class="video-author"> DX </p>
+        <p class="video-stats"> 2.9M views &middot; 3 years ago </p>
     </div>
 
 </body>
