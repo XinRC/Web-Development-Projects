@@ -1,6 +1,6 @@
 <div align = "center"> 
 
-# Web-Development-Projects
+# Web Development Projects
 ##### Established on October 19th, 2025
 
 <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.png" width = 700 height = 350 />
